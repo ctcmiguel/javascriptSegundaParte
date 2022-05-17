@@ -26,4 +26,3 @@ console.log(rectanguloUno.area());
 //DOM
 document.getElementById('respuesta').innerHTML 
 = rectanguloUno.area();
-
