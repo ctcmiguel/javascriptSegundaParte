@@ -1,3 +1,3 @@
-const items = document.getElementsByTagName('select');
-console.log(items);
-// items[1].style.background = 'red';
+// Busco por etiquetas
+const items = document.getElementsByTagName('option');
+items[1].style.background = 'red';
