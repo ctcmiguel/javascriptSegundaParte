@@ -1,3 +1,3 @@
-const items = document.getElementsByTagName("option");
+const items = document.getElementsByTagName('option');
 console.log(items);
-// mycube[1].style.background = 'red';
+items[1].style.background = 'red';
