@@ -1,5 +1,5 @@
 const botonSimple = document.getElementById('botonSimple');
-botonSimple.addEventListener('click',  event =>{
+botonSimple.addEventListener('click', () =>{
     console.log('Evento nuevo desde JS');
     alert('Evento nuevo desde JS');
 })
