@@ -18,14 +18,14 @@
     <body>
         <div class="container">
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Tabla de multiplicar</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tabla de multiplicar">
-            <label for="exampleFormControlInput1" class="form-label">Inicio</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Inicio">
-            <label for="exampleFormControlInput1" class="form-label">Fin</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Fin">
+            <label for="exampleFormControlInput1" class="form-label">Tabla de multiplicar del </label>
+            <form id="frm1" action="">
+              Multiplicador: <input type="text" name="multiplicador"><br>
+              <input id=botonMultiplicador type="button" onclick="myFunction()" value="Submit">
+            </form>
+            
           </div>
-            <table class="table">
+            <table id="myDynamicTable" class="table">
                 <thead>
                   <tr>
                     <th scope="col" colspan="3">Tabla del 1</th>
